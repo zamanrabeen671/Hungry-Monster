@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Monster</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <form class="col-md-8 col-lg-7 col-xl-6 m-auto pt-5 pb-2">
+                <div class="input-group mb-1">
+                    <input id="meal-input" type="text" required class="form-control input-order" placeholder="Search for meal">
+                    <div class="input-group-append">
+                        <button id="searchBtn" type="button" class="btn">Search</button>
+                    </div>
+                </div>
+                <div style="height: 30px;margin-bottom: 10px;">
+                    <p id="alert"></p>
+                </div>
+            </form>
+        </div>
+
+        <div id="meal-details" class="container">
+            <div id="display-details" class="row row-cols-1  row-cols-md-2 g-1">
+
+            </div>
+            <div id="ingredient-display">
+                
+            </div>
+        </div>
+
+        <div class="meal-container container">
+            <div id="meal-item" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+
+            </div>
+        </div>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
